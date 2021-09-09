@@ -3,7 +3,7 @@ const inputText = document.querySelector('input');
 const answerText = document.querySelector('.answer');
 const errorText = document.querySelector('.error');
 
-const randomAns = ['Tak.', 'Nie.', 'Może...', 'Nie chcesz wiedzieć.', 'Wkrótce poznasz prawdę...', 'Nie chcę mi się z Tobą gadać...', 'Spytaj kolegi.', 'Koleżanka Ci powie...', 'Pal gumę, nie powiem Ci!', 'Tylko wtedy, gdy pada deszcz.'];
+const randomAns = ['Tak.', 'Nie.', 'Może...', 'Nie chcesz wiedzieć.', 'Wkrótce poznasz prawdę...', 'Nie mogę Ci powiedzieć!', 'Nie licz na to.', 'Spytaj mnie o to później.', 'Jest to bardzo prawdopodobne.'];
 
 
 const ballAnimate = () => {
